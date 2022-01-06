@@ -9,7 +9,35 @@ const { simple_mode } = toRefs(app_data);
 
 onMounted(() => {
   store.commit("update_app_data", {
-    time_line: new time_line("#draw", String(simple_mode)=="true" ? "simple" : "detail"),
+    time_line: new time_line(
+      "#draw",
+      String(simple_mode) == "true" ? "simple" : "detail"
+    ),
+  });
+  const slider = document.getElementById("draw");
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  slider.addEventListener("mousedown", (e) => {
+    isDown = true;
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  });
+  slider.addEventListener("mouseleave", () => {
+    isDown = false;
+  });
+  slider.addEventListener("mouseup", () => {
+    isDown = false;
+  });
+  slider.addEventListener("mousemove", (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const walk_x = (x - startX) * 3; //scroll-fast
+    slider.scrollLeft = scrollLeft - walk_x;
+
+    // console.log(walk);
   });
 });
 
@@ -65,6 +93,7 @@ export default {
   padding: 15px;
   padding-bottom: 10px;
   border-radius: 5px;
+  position: fixed;
 }
 
 .v-input__details {

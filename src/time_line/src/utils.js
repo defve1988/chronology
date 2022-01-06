@@ -46,11 +46,12 @@ export const showTooltip = function (evt) {
    let text = evt.target.parentElement.getAttribute("comment")
 
    if (text != "" || img != "") {
+      // console.log(evt)
       let tooltip = document.getElementById("time_line_tooltip");
       tooltip.innerHTML = text;
       tooltip.style.display = "block";
-      tooltip.style.left = evt.layerX + 10 + "px";
-      tooltip.style.top = evt.layerY + 10 + "px";
+      tooltip.style.left = evt.pageX + 10 + "px";
+      tooltip.style.top = evt.pageY + "px";
 
       let br = document.createElement("br");
       tooltip.appendChild(br);
