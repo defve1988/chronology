@@ -1,0 +1,1215 @@
+{
+   "canvas": {
+      "H": 7000,
+      "W": 7500,
+      "padding": 50,
+      "interval":400,
+      "base_font":24,
+      "st": "-4500",
+      "ed": "2500",
+      "ticks":14,
+      "dateformat":"year with AD"
+   },
+   "data": {
+      "China_main": {
+         "text": "China",
+         "index": 0,
+         "periods": [
+            {
+               "name": "新石器时代",
+               "st": "-4500",
+               "ed": "-2070",
+               "url": "",
+               "color": "#8f8f8f",
+               "vertical": true
+            },
+            {
+               "name": "夏",
+               "st": "-2070",
+               "ed": "-1617",
+               "url": "https://en.wikipedia.org/wiki/Xia_dynasty",
+               "color": "#e3b44f",
+               "vertical": true
+            },
+            {
+               "st": "-1617",
+               "ed": "-1046",
+               "name": "商",
+               "vertical": true,
+               "color": "rgba(185, 231, 252, 1)",
+               "url": ""
+            },
+            {
+               "st": "-1046",
+               "ed": "-771",
+               "name": "西周",
+               "vertical": true,
+               "color": "rgba(255, 34, 132, 1)",
+               "url": ""
+            },
+            {
+               "st": "-771",
+               "ed": "-256",
+               "name": "东周",
+               "vertical": true,
+               "color": "rgba(240, 99, 183, 1)",
+               "url": ""
+            },
+            {
+               "st": "-221",
+               "ed": "-207",
+               "name": "秦",
+               "vertical": true,
+               "color": "rgba(123, 123, 123, 1)",
+               "url": ""
+            },
+            {
+               "st": "-202",
+               "ed": "8",
+               "name": "西汉",
+               "vertical": true,
+               "color": "rgba(255, 230, 35, 1)",
+               "url": ""
+            },
+            {
+               "st": "8",
+               "ed": "25",
+               "name": "新",
+               "vertical": true,
+               "color": "rgba(149, 0, 255, 1)",
+               "url": ""
+            },
+            {
+               "st": "25",
+               "ed": "220",
+               "name": "东汉",
+               "vertical": true,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": ""
+            },
+            {
+               "st": "220",
+               "ed": "280",
+               "name": "三国",
+               "vertical": true,
+               "color": "rgba(0, 77, 255, 1)",
+               "url": ""
+            },
+            {
+               "st": "280",
+               "ed": "316",
+               "name": "西晋",
+               "vertical": true,
+               "color": "#59c7f9",
+               "url": ""
+            },
+            {
+               "st": "316",
+               "ed": "420",
+               "name": "东晋",
+               "vertical": true,
+               "color": "rgba(0, 190, 255, 1)",
+               "url": ""
+            },
+            {
+               "st": "420",
+               "ed": "589",
+               "name": "南北朝",
+               "vertical": true,
+               "color": "#59c7f9",
+               "url": ""
+            },
+            {
+               "st": "589",
+               "ed": "618",
+               "name": "隋",
+               "vertical": true,
+               "color": "rgba(244, 115, 101, 1)",
+               "url": ""
+            },
+            {
+               "st": "618",
+               "ed": "907",
+               "name": "唐",
+               "vertical": true,
+               "color": "rgba(252, 60, 173, 1)",
+               "url": ""
+            },
+            {
+               "st": "907",
+               "ed": "960",
+               "name": "五代十國",
+               "vertical": true,
+               "color": "rgba(255, 230, 35, 1)",
+               "url": ""
+            },
+            {
+               "st": "960",
+               "ed": "1127",
+               "name": "北宋",
+               "vertical": true,
+               "color": "rgba(191, 61, 206, 1)",
+               "url": ""
+            },
+            {
+               "st": "1127",
+               "ed": "1279",
+               "name": "南宋",
+               "vertical": true,
+               "color": "rgba(142, 0, 167, 1)",
+               "url": ""
+            },
+            {
+               "st": "1279",
+               "ed": "1368",
+               "name": "元",
+               "vertical": true,
+               "color": "rgba(27, 199, 177, 1)",
+               "url": ""
+            },
+            {
+               "st": "1368",
+               "ed": "1644",
+               "name": "明",
+               "vertical": true,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": ""
+            },
+            {
+               "st": "1644",
+               "ed": "1912",
+               "name": "清",
+               "vertical": true,
+               "color": "rgba(244, 115, 101, 1)",
+               "url": ""
+            },
+            {
+               "st": "1912",
+               "ed": "1949",
+               "name": "民國",
+               "vertical": true,
+               "color": "rgba(46, 129, 255, 1)",
+               "url": ""
+            },
+            {
+               "st": "1949",
+               "ed": "2022",
+               "name": "中國",
+               "vertical": true,
+               "color": "rgba(255, 0, 4, 1)",
+               "url": ""
+            }
+         ],
+         "events": [
+            {
+               "time": "-4000",
+               "name": "仰韶文化",
+               "comment": "半坡遗址, 彩陶文化, 人面纹陶盆",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Banpo_bowl.jpg/600px-Banpo_bowl.jpg",
+               "url": "https://www.wikiwand.com/zh/%E4%BB%B0%E9%9F%B6%E6%96%87%E5%8C%96",
+               "label": "4000 BC - 仰韶文化"
+            },
+            {
+               "time": "-2500",
+               "name": "龍山文化",
+               "comment": "黑陶文化",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Longshan_eggshell_thin_cup.jpg/440px-Longshan_eggshell_thin_cup.jpg",
+               "url": "https://www.wikiwand.com/zh/%E9%BE%8D%E5%B1%B1%E6%96%87%E5%8C%96",
+               "label": "2500 BC - 龍山文化"
+            },
+            {
+               "time": "-2070",
+               "name": "大禹建夏",
+               "comment": "",
+               "img": "",
+               "url": "https://www.wikiwand.com/zh/%E7%A6%B9",
+               "label": "2070 BC - 大禹建夏"
+            },
+            {
+               "time": "-1617",
+               "name": "商汤灭桀",
+               "comment": "",
+               "img": "",
+               "url": "https://www.wikiwand.com/zh/%E6%A1%80",
+               "label": "1617 BC - 商汤灭桀"
+            },
+            {
+               "time": "-1286",
+               "name": "盘庚迁殷",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1286 BC - 盘庚迁殷"
+            },
+            {
+               "time": "-842",
+               "name": "国人暴动",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "842 BC - 国人暴动"
+            },
+            {
+               "time": "-1046",
+               "name": "武王伐纣",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1046 BC - 武王伐纣"
+            },
+            {
+               "time": "-771",
+               "name": "犬戎入镐京，成王东迁",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "771 BC - 犬戎入镐京，成王东迁"
+            },
+            {
+               "time": "-256",
+               "name": "秦灭周",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "256 BC - 秦灭周"
+            },
+            {
+               "time": "-340",
+               "name": "商鞅变法",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "340 BC - 商鞅变法"
+            },
+            {
+               "time": "-221",
+               "name": "秦统一中原",
+               "comment": "",
+               "url": "https://www.wikiwand.com/zh/%E7%A7%A6%E6%9C%9D#:~:text=%E7%A7%A6%E6%9C%9D%EF%BC%88%E5%89%8D221%E5%B9%B4,%E7%A7%A6%E5%9C%8B%EF%BC%8C%E5%8F%B7%E7%A7%B0%E7%A7%A6%E5%AC%B4%E3%80%82",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Qin_Dynasty.png/560px-Qin_Dynasty.png",
+               "label": "221 BC - 秦统一中原"
+            },
+            {
+               "time": "-202",
+               "name": "项羽败于垓下",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "202 BC - 项羽败于垓下"
+            },
+            {
+               "time": "-154",
+               "name": "七国之乱",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "154 BC - 七国之乱"
+            },
+            {
+               "time": "-140",
+               "name": "独尊儒术",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "140 BC - 独尊儒术"
+            },
+            {
+               "time": "-127",
+               "name": "卫青北击匈奴",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "127 BC - 卫青北击匈奴"
+            },
+            {
+               "time": "-91",
+               "name": "史记成书",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "91 BC - 史记成书"
+            },
+            {
+               "time": "184",
+               "name": "黄巾之乱",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "184 AD - 黄巾之乱"
+            },
+            {
+               "time": "8",
+               "name": "王莽代汉",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "8 AD - 王莽代汉"
+            },
+            {
+               "time": "25",
+               "name": "光武中兴",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "25 AD - 光武中兴"
+            },
+            {
+               "time": "220",
+               "name": "曹丕篡汉",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "220 AD - 曹丕篡汉"
+            },
+            {
+               "time": "208",
+               "name": "赤壁之战",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "208 AD - 赤壁之战"
+            },
+            {
+               "time": "200",
+               "name": "官渡之战",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "200 AD - 官渡之战"
+            },
+            {
+               "time": "266",
+               "name": "司马代魏",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "266 AD - 司马代魏"
+            },
+            {
+               "time": "280",
+               "name": "晋灭吴",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "280 AD - 晋灭吴"
+            },
+            {
+               "time": "-154",
+               "name": "七国之乱",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "154 BC - 七国之乱"
+            },
+            {
+               "time": "304",
+               "name": "八王之乱",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "304 AD - 八王之乱"
+            },
+            {
+               "time": "316",
+               "name": "西晋亡",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "316 AD - 西晋亡"
+            },
+            {
+               "time": "383",
+               "name": "淝水之战",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "383 AD - 淝水之战"
+            },
+            {
+               "time": "420",
+               "name": "刘裕建宋",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "420 AD - 刘裕建宋"
+            },
+            {
+               "time": "589",
+               "name": "隋灭陈",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "589 AD - 隋灭陈"
+            },
+            {
+               "time": "907",
+               "name": "朱温灭唐",
+               "comment": "朱李石劉郭，梁唐晉漢周",
+               "url": "",
+               "img": "",
+               "label": "907 AD - 朱温灭唐"
+            },
+            {
+               "time": "960",
+               "name": "陈桥驿黄袍加身",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "960 AD - 陈桥驿黄袍加身"
+            },
+            {
+               "time": "1127",
+               "name": "靖康之变",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1127 AD - 靖康之变"
+            },
+            {
+               "time": "1279",
+               "name": "崖山之战",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1279 AD - 崖山之战"
+            },
+            {
+               "time": "1368",
+               "name": "朱元璋称帝",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1368 AD - 朱元璋称帝"
+            },
+            {
+               "time": "1644",
+               "name": "顺治入关",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1644 AD - 顺治入关"
+            },
+            {
+               "time": "1912",
+               "name": "清帝退位",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1912 AD - 清帝退位"
+            },
+            {
+               "time": "1949",
+               "name": "新中国成立",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1949 AD - 新中国成立"
+            }
+         ]
+      },
+      "China_sub": {
+         "text": "",
+         "index": 1,
+         "periods": [
+            {
+               "st": "-722",
+               "ed": "-473",
+               "name": "春秋",
+               "vertical": true,
+               "color": "#59c7f9",
+               "url": ""
+            },
+            {
+               "st": "-453",
+               "ed": "-221",
+               "name": "战国",
+               "vertical": true,
+               "color": "rgba(79, 96, 240, 1)",
+               "url": ""
+            },
+            {
+               "st": "311",
+               "ed": "439",
+               "name": "十六国",
+               "vertical": true,
+               "color": "rgba(110, 255, 42, 1)",
+               "url": ""
+            },
+            {
+               "st": "439",
+               "ed": "581",
+               "name": "北朝",
+               "vertical": true,
+               "color": "rgba(27, 199, 177, 1)",
+               "url": ""
+            },
+            {
+               "st": "916",
+               "ed": "1125",
+               "name": "大遼",
+               "vertical": true,
+               "color": "rgba(0, 190, 255, 1)",
+               "url": "https://www.wikiwand.com/zh/%E8%BE%BD%E6%9C%9D"
+            },
+            {
+               "st": "1125",
+               "ed": "1234",
+               "name": "金",
+               "vertical": true,
+               "color": "rgba(255, 195, 0, 1)",
+               "url": "https://www.wikiwand.com/zh/%E9%87%91%E6%9C%9D"
+            },
+            {
+               "st": "1368",
+               "ed": "1635",
+               "name": "北元",
+               "vertical": true,
+               "color": "rgba(110, 255, 42, 1)",
+               "url": "https://www.wikiwand.com/zh/%E5%8C%97%E5%85%83"
+            }
+         ],
+         "events": [
+            {
+               "time": "-656",
+               "name": "桓公首霸",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "656 BC - 桓公首霸"
+            },
+            {
+               "time": "-453",
+               "name": "三家分晋",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "453 BC - 三家分晋"
+            },
+            {
+               "time": "-221",
+               "name": "秦灭齐",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "221 BC - 秦灭齐"
+            },
+            {
+               "time": "-473",
+               "name": "勾践灭吴",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "473 BC - 勾践灭吴"
+            },
+            {
+               "time": "-722",
+               "name": "郑伯克段",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "722 BC - 郑伯克段"
+            },
+            {
+               "time": "-632",
+               "name": "晋文公称霸",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "632 BC - 晋文公称霸"
+            },
+            {
+               "time": "-260",
+               "name": "长平之战",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "260 BC - 长平之战"
+            },
+            {
+               "time": "311",
+               "name": "永嘉之乱",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "311 AD - 永嘉之乱"
+            },
+            {
+               "time": "439",
+               "name": "北魏灭北凉，统一北方",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "439 AD - 北魏灭北凉，统一北方"
+            },
+            {
+               "time": "581",
+               "name": "杨坚代北周",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "581 AD - 杨坚代北周"
+            },
+            {
+               "time": "485",
+               "name": "北魏孝文帝汉化",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "485 AD - 北魏孝文帝汉化"
+            },
+            {
+               "time": "446",
+               "name": "北魏太武帝灭佛",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "446 AD - 北魏太武帝灭佛"
+            }
+         ]
+      },
+      "Greece ": {
+         "text": "Greece ",
+         "index": 2,
+         "periods": [
+            {
+               "st": "-1100",
+               "ed": "-750",
+               "name": "Dark Age",
+               "vertical": false,
+               "color": "rgba(157, 190, 205, 1)",
+               "url": ""
+            },
+            {
+               "st": "-1600",
+               "ed": "-1100",
+               "name": "Mycenaean",
+               "vertical": false,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": ""
+            },
+            {
+               "st": "-800",
+               "ed": "-480",
+               "name": "Archaic Greece",
+               "vertical": false,
+               "color": "rgba(46, 129, 255, 1)",
+               "url": ""
+            },
+            {
+               "st": "-480",
+               "ed": "-323",
+               "name": "Classical era",
+               "vertical": false,
+               "color": "rgba(243, 226, 91, 1)",
+               "url": ""
+            },
+            {
+               "st": "-323",
+               "ed": "-146",
+               "name": "Hellenistic era",
+               "vertical": false,
+               "color": "rgba(244, 115, 101, 1)",
+               "url": ""
+            },
+            {
+               "st": "-146",
+               "ed": "395",
+               "name": "Roman era",
+               "vertical": false,
+               "color": "rgba(27, 199, 177, 1)",
+               "url": ""
+            },
+            {
+               "st": "-3200",
+               "ed": "-1600",
+               "name": "Bronze Age",
+               "vertical": false,
+               "color": "rgba(255, 83, 0, 0.88)",
+               "url": ""
+            },
+            {
+               "st": "-1600",
+               "ed": "-1100",
+               "name": "Mycenaean",
+               "vertical": false,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": ""
+            },
+            {
+               "st": "-4500",
+               "ed": "-3200",
+               "name": "Neolithic ",
+               "vertical": false,
+               "color": "rgba(132, 132, 132, 1)",
+               "url": ""
+            }
+         ],
+         "events": [
+            {
+               "time": "-480",
+               "name": "The Second Persian invasion",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "480 BC - The Second Persian invasion"
+            },
+            {
+               "time": "-1100",
+               "name": "Dorians invasion",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1100 BC - Dorians invasion"
+            },
+            {
+               "time": "-800",
+               "name": "The development of the polis",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "800 BC - The development of the polis"
+            },
+            {
+               "time": "-323",
+               "name": "The death of Alexander the Great",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "323 BC - The death of Alexander the Great"
+            },
+            {
+               "time": "-146",
+               "name": "Battle of Corinth",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "146 BC - Battle of Corinth"
+            },
+            {
+               "time": "395",
+               "name": "Byzantine Empire",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "395 AD - Byzantine Empire"
+            },
+            {
+               "time": "-3300",
+               "name": "Cycladic culture",
+               "comment": "",
+               "url": "https://www.wikiwand.com/en/Cycladic_culture",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cycladic_figurine_3.jpg/300px-Cycladic_figurine_3.jpg",
+               "label": "3300 BC - Cycladic culture"
+            },
+            {
+               "time": "-3000",
+               "name": "Minoan civilization",
+               "comment": "",
+               "url": "https://www.wikiwand.com/en/Minoan_civilization",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Palazzo_Minosse7.jpg/600px-Palazzo_Minosse7.jpg",
+               "label": "3000 BC - Minoan civilization"
+            }
+         ]
+      },
+      "Rome/Italy": {
+         "text": "Rome/Italy",
+         "index": 3,
+         "periods": [
+            {
+               "st": "-753",
+               "ed": "-509",
+               "name": "Roman Kingdom",
+               "vertical": false,
+               "color": "rgba(155, 221, 250, 1)",
+               "url": ""
+            },
+            {
+               "st": "-509",
+               "ed": "-27",
+               "name": "Roman Republic",
+               "vertical": false,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": ""
+            },
+            {
+               "st": "-27",
+               "ed": "395",
+               "name": "Roman Empire",
+               "vertical": false,
+               "color": "rgba(255, 137, 207, 1)",
+               "url": ""
+            }
+         ],
+         "events": [
+            {
+               "time": "-753",
+               "name": "Rome was founded.",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "753 BC - Rome was founded."
+            }
+         ]
+      },
+      "Japan": {
+         "text": "Japan",
+         "index": 4,
+         "periods": [
+            {
+               "st": "-4500",
+               "ed": "-1000",
+               "name": "縄文時代",
+               "vertical": true,
+               "color": "rgba(168, 168, 168, 1)",
+               "url": "https://www.wikiwand.com/ja/%E7%B8%84%E6%96%87%E6%99%82%E4%BB%A3"
+            },
+            {
+               "st": "-1000",
+               "ed": "300",
+               "name": "弥生時代",
+               "vertical": true,
+               "color": "rgba(174, 228, 252, 1)",
+               "url": "https://www.wikiwand.com/ja/%E5%BC%A5%E7%94%9F%E6%99%82%E4%BB%A3"
+            },
+            {
+               "st": "710",
+               "ed": "794",
+               "name": "奈良時代",
+               "vertical": true,
+               "color": "rgba(27, 199, 177, 1)",
+               "url": "https://www.wikiwand.com/ja/%E5%A5%88%E8%89%AF%E6%99%82%E4%BB%A3"
+            },
+            {
+               "st": "300",
+               "ed": "710",
+               "name": "古墳時代",
+               "vertical": true,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": "https://www.wikiwand.com/ja/%E5%8F%A4%E5%A2%B3%E6%99%82%E4%BB%A3"
+            },
+            {
+               "st": "794",
+               "ed": "1185",
+               "name": "平安時代",
+               "vertical": true,
+               "color": "rgba(255, 137, 207, 1)",
+               "url": ""
+            },
+            {
+               "st": "1185",
+               "ed": "1333",
+               "name": "鎌倉時代",
+               "vertical": true,
+               "color": "rgba(46, 129, 255, 1)",
+               "url": "https://www.wikiwand.com/ja/%E9%8E%8C%E5%80%89%E6%99%82%E4%BB%A3"
+            },
+            {
+               "st": "1336",
+               "ed": "1573",
+               "name": "室町時代",
+               "vertical": true,
+               "color": "rgba(0, 190, 255, 1)",
+               "url": "https://www.wikiwand.com/ja/%E5%AE%A4%E7%94%BA%E6%99%82%E4%BB%A3"
+            },
+            {
+               "st": "1576",
+               "ed": "1603",
+               "name": "织丰时代",
+               "vertical": true,
+               "color": "rgba(252, 60, 173, 1)",
+               "url": ""
+            },
+            {
+               "st": "1603",
+               "ed": "1868",
+               "name": "江戸時代",
+               "vertical": true,
+               "color": "rgba(244, 115, 101, 1)",
+               "url": ""
+            },
+            {
+               "st": "1868",
+               "ed": "1912",
+               "name": "明治",
+               "vertical": true,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": ""
+            },
+            {
+               "st": "1912",
+               "ed": "1989",
+               "name": "昭和",
+               "vertical": true,
+               "color": "rgba(27, 199, 177, 1)",
+               "url": ""
+            },
+            {
+               "st": "1989",
+               "ed": "2025",
+               "name": "現代",
+               "vertical": true,
+               "color": "rgba(244, 115, 101, 1)",
+               "url": ""
+            }
+         ],
+         "events": [
+            {
+               "time": "592",
+               "name": "飛鳥京",
+               "comment": "",
+               "url": "https://www.wikiwand.com/zh/%E9%A3%9B%E9%B3%A5_(%E5%9C%B0%E5%90%8D)",
+               "img": "",
+               "label": "592 AD - 飛鳥京"
+            },
+            {
+               "time": "146",
+               "name": "女王卑彌呼立於邪馬台國",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E5%8D%91%E5%BC%A5%E5%91%BC",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Queen-Himiko-Museum-Yayoi-Culture.png/400px-Queen-Himiko-Museum-Yayoi-Culture.png",
+               "label": "146 AD - 女王卑彌呼立於邪馬台國"
+            },
+            {
+               "time": "57",
+               "name": "光武帝授漢委奴國王印",
+               "comment": "",
+               "url": "https://www.wikiwand.com/zh/%E6%B1%89%E5%A7%94%E5%A5%B4%E5%9B%BD%E7%8E%8B%E5%8D%B0",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/e/ec/King_of_Na_gold_seal_knob.jpg",
+               "label": "57 AD - 光武帝授漢委奴國王印"
+            },
+            {
+               "time": "710",
+               "name": "遷都平城京",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E5%B9%B3%E5%9F%8E%E4%BA%AC",
+               "img": "http://www1.kcn.ne.jp/~watblue7/tenpyo/shiseki/heijo/heijoL.jpg",
+               "label": "710 AD - 遷都平城京"
+            },
+            {
+               "time": "794",
+               "name": "遷都平安京",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "794 AD - 遷都平安京"
+            },
+            {
+               "time": "1167",
+               "name": "平清盛の武家政権",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1167 AD - 平清盛の武家政権"
+            },
+            {
+               "time": "1192",
+               "name": "源賴朝任征夷大將軍",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1192 AD - 源賴朝任征夷大將軍"
+            },
+            {
+               "time": "1331",
+               "name": "元弘之亂",
+               "comment": "",
+               "url": "https://www.wikiwand.com/zh/%E5%85%83%E5%BC%98%E4%B9%8B%E4%BA%82",
+               "img": "",
+               "label": "1331 AD - 元弘之亂"
+            },
+            {
+               "time": "1274",
+               "name": "蒙古襲来",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E5%85%83%E5%AF%87#/%E6%96%87%E6%B0%B8%E3%81%AE%E5%BD%B9",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/M%C5%8Dko_Sh%C5%ABrai_Ekotoba.jpg/720px-M%C5%8Dko_Sh%C5%ABrai_Ekotoba.jpg",
+               "label": "1274 AD - 蒙古襲来"
+            },
+            {
+               "time": "1467",
+               "name": "応仁の乱",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E5%BF%9C%E4%BB%81%E3%81%AE%E4%B9%B1",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png/600px-Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
+               "label": "1467 AD - 応仁の乱"
+            },
+            {
+               "time": "1590",
+               "name": "小田原征伐 北条氏の降伏",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E5%B0%8F%E7%94%B0%E5%8E%9F%E5%BE%81%E4%BC%90",
+               "img": "",
+               "label": "1590 AD - 小田原征伐 北条氏の降伏"
+            },
+            {
+               "time": "1603",
+               "name": "徳川家康が征夷大将軍に任命されて",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1603 AD - 徳川家康が征夷大将軍に任命されて"
+            },
+            {
+               "time": "1639",
+               "name": "鎖国",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E9%8E%96%E5%9B%BD",
+               "img": "",
+               "label": "1639 AD - 鎖国"
+            },
+            {
+               "time": "1853",
+               "name": "黒船来航",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E9%BB%92%E8%88%B9%E6%9D%A5%E8%88%AA",
+               "img": "",
+               "label": "1853 AD - 黒船来航"
+            },
+            {
+               "time": "1868",
+               "name": "戊辰戦争",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1868 AD - 戊辰戦争"
+            },
+            {
+               "time": "1336",
+               "name": "足利尊氏任征夷大將軍",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1336 AD - 足利尊氏任征夷大將軍"
+            },
+            {
+               "time": "1614",
+               "name": "大坂の陣",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E5%A4%A7%E5%9D%82%E3%81%AE%E9%99%A3",
+               "img": "",
+               "label": "1614 AD - 大坂の陣"
+            },
+            {
+               "time": "1894",
+               "name": "日清戦争",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E6%97%A5%E6%B8%85%E6%88%A6%E4%BA%89",
+               "img": "",
+               "label": "1894 AD - 日清戦争"
+            },
+            {
+               "time": "1904",
+               "name": "日露戦争",
+               "comment": "",
+               "url": "https://www.wikiwand.com/ja/%E6%97%A5%E9%9C%B2%E6%88%A6%E4%BA%89",
+               "img": "",
+               "label": "1904 AD - 日露戦争"
+            },
+            {
+               "time": "1945",
+               "name": "終戦の日",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1945 AD - 終戦の日"
+            },
+            {
+               "time": "1926",
+               "name": "大正天皇の崩御",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1926 AD - 大正天皇の崩御"
+            }
+         ]
+      },
+      "America": {
+         "text": "America",
+         "index": 5,
+         "periods": [
+            {
+               "st": "-4500",
+               "ed": "1492",
+               "name": "Pre-Columbian era",
+               "vertical": false,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": ""
+            },
+            {
+               "st": "1492",
+               "ed": "1776",
+               "name": "Colonial period",
+               "vertical": false,
+               "color": "rgba(255, 137, 207, 1)",
+               "url": ""
+            },
+            {
+               "st": "1776",
+               "ed": "2025",
+               "name": "United States",
+               "vertical": false,
+               "color": "rgba(46, 129, 255, 1)",
+               "url": ""
+            }
+         ],
+         "events": [
+            {
+               "time": "1492",
+               "name": "Christopher Columbus's voyage",
+               "comment": "",
+               "url": "https://www.wikiwand.com/en/Voyages_of_Christopher_Columbus",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Viajes_de_colon_en.svg/480px-Viajes_de_colon_en.svg.png",
+               "label": "1492 AD - Christopher Columbus's voyage"
+            },
+            {
+               "time": "1620",
+               "name": "Mayflower arrived  in America",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1620 AD - Mayflower arrived  in America"
+            },
+            {
+               "time": "1865",
+               "name": "Civil War ended",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "1865 AD - Civil War ended"
+            },
+            {
+               "time": "1773",
+               "name": "Boston Tea Party",
+               "comment": "",
+               "url": "https://www.wikiwand.com/en/Boston_Tea_Party",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Boston_Tea_Party-Cooper.jpg/440px-Boston_Tea_Party-Cooper.jpg",
+               "label": "1773 AD - Boston Tea Party"
+            },
+            {
+               "time": "1776",
+               "name": "United States Declaration of Independence",
+               "comment": "",
+               "url": "https://www.wikiwand.com/en/United_States_Declaration_of_Independence",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/640px-United_States_Declaration_of_Independence.jpg",
+               "label": "1776 AD - United States Declaration of Independence"
+            },
+            {
+               "time": "1941",
+               "name": "Attack on Pearl Harbor",
+               "comment": "",
+               "url": "https://www.wikiwand.com/en/Attack_on_Pearl_Harbor",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pearlmap1.png/700px-Pearlmap1.png",
+               "label": "1941 AD - Attack on Pearl Harbor"
+            },
+            {
+               "time": "1945",
+               "name": "Atomic bombings",
+               "comment": "",
+               "url": "https://www.wikiwand.com/en/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Atomic_bomb_1945_mission_map.svg/580px-Atomic_bomb_1945_mission_map.svg.png",
+               "label": "1945 AD - Atomic bombings"
+            }
+         ]
+      }
+   }
+}
