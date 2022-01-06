@@ -1,8 +1,8 @@
 import time_line_data from "@/assets/time_line.json";
 
 const state = {
-   // data: time_line_data.data,
-   data: {},
+   data: time_line_data.data,
+   // data: {},
    time_line: null,
    simple_mode: false,
    curr_time_line: null,

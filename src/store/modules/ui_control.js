@@ -2,19 +2,19 @@ import time_line_data from "@/assets/time_line.json";
 
 const state = {
    drawer: true,
-   // canvas:time_line_data.canvas,
-   canvas: {
-      "H": 7000,
-      "W": 5000,
-      "padding": 50,
-      "interval": 400,
-      "base_font": 24,
-      "st": "-4500",
-      "ed": "2500",
-      "ticks": 14,
-      // or yyyy-mm or yyyy-mm-dd
-      "dateformat": "year with AD"
-   },
+   canvas:time_line_data.canvas,
+   // canvas: {
+   //    "H": 7000,
+   //    "W": 5000,
+   //    "padding": 50,
+   //    "interval": 400,
+   //    "base_font": 24,
+   //    "st": "-4500",
+   //    "ed": "2500",
+   //    "ticks": 14,
+   //    // or yyyy-mm or yyyy-mm-dd
+   //    "dateformat": "year with AD"
+   // },
    period_color: "#000000",
    event_color: "#000000",
 
