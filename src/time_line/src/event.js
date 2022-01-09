@@ -17,6 +17,9 @@ export const add_event = function (group, event, index, font, dateformat) {
    var comment = event["comment"]
    var img = event["img"]
 
+   if (comment != "" || img != "") comment = `<b>${text_label}:</b> <br> ${comment}`
+
+
    // draw tick
    G.line(0, 0, 1, 0)
       .stroke({ color: '#303030' })
@@ -26,8 +29,8 @@ export const add_event = function (group, event, index, font, dateformat) {
    G.link(url)
       .target('_blank')
       .text(text_label)
-      .font({ size: font.size, family: font.label_family, weight: "bold", fill:color})
-      .attr({ comment: comment, img: img})
+      .font({ size: font.size, family: font.label_family, weight: "bold", fill: color })
+      .attr({ comment: comment, img: img })
       .on('mouseover', showTooltip)
       .on('mouseout', hideTooltip)
 }

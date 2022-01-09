@@ -45,29 +45,41 @@ export const showTooltip = function (evt) {
    let img = evt.target.parentElement.getAttribute("img")
    let text = evt.target.parentElement.getAttribute("comment")
 
+   let el = evt.target.parentElement
+   el.classList.add('hover')
+   el.setAttribute('transform', 'translate(0 -2)')
+   // console.log(evt.target)
+
    if (text != "" || img != "") {
-      // console.log(evt)
       let tooltip = document.getElementById("time_line_tooltip");
-      tooltip.innerHTML = text;
       tooltip.style.display = "block";
+      tooltip.style.visibility = "visible";
+      tooltip.style.opacity = 1;
+
       tooltip.style.left = evt.pageX + 10 + "px";
       tooltip.style.top = evt.pageY + "px";
+      tooltip.innerHTML = text;
 
-      let br = document.createElement("br");
-      tooltip.appendChild(br);
+      if (img != "") {
+         let br = document.createElement("br");
+         tooltip.appendChild(br);
 
-      var node = document.createElement("img");
-      node.setAttribute("src", img)
-      node.style.maxWidth = "400px"
-      node.style.maxHeight = "300px"
-      node.style.width = "auto"
-      node.style.height = "auto"
-      tooltip.appendChild(node);
+         var node = document.createElement("img");
+         node.setAttribute("src", img)
+         node.style.maxWidth = "400px"
+         node.style.maxHeight = "300px"
+         node.style.width = "auto"
+         node.style.height = "auto"
+         tooltip.appendChild(node);
+      }
    }
-
 }
 
 export const hideTooltip = function (evt) {
    var tooltip = document.getElementById("time_line_tooltip");
-   tooltip.style.display = "none";
+   let el = evt.target.parentElement
+   el.setAttribute('transform', 'translate(0 2)')
+   el.classList.remove('hover')
+   tooltip.style.visibility = "hidden";
+   tooltip.style.opacity = 0;
 }

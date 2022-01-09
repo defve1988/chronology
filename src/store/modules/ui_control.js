@@ -25,6 +25,8 @@ const state = {
       "ed": "",
       "url": "",
       "color": "",
+      "comment":"",
+      "img":"",
       "vertical": true
    },
    is_new_period: true,

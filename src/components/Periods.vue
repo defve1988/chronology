@@ -13,8 +13,23 @@ const { data, curr_period, curr_time_line } = toRefs(app_data);
 var { new_period, is_new_period, period_color, canvas } = toRefs(ui_control);
 
 const set_period_vals = () => {
-  new_period.value = curr_period;
-  period_color.value = curr_period.value.color;
+  if (is_new_period.value) {
+    new_period.value = {
+      name: "",
+      st: "",
+      ed: "",
+      url: "",
+      comment: "",
+      img: "",
+      vertical: true,
+    };
+    period_color.value = "#000000";
+  } else {
+    // new_period.value = JSON.parse(JSON.stringify(curr_period.value));
+    // period_color.value = JSON.parse(JSON.stringify(curr_period.value)).color;
+    new_period.value = curr_period.value;
+    period_color.value = curr_period.value.color;
+  }
 };
 
 let period_opt = computed(() => {
@@ -31,7 +46,8 @@ const update_period = (method) => {
     if (String(is_new_period.value) == "true") {
       store.commit("add_new_period", new_period.value);
     } else {
-      console.log(JSON.parse(JSON.stringify(new_period.value)));
+      // console.log(JSON.parse(JSON.stringify(new_period.value)));
+      // console.log(curr_period);
       curr_period.value = JSON.parse(JSON.stringify(new_period.value));
     }
   }
@@ -69,14 +85,20 @@ const changeColor = (color) => {
       ></v-text-field>
       <v-text-field v-model="new_period.st" label="From"></v-text-field>
       <v-text-field v-model="new_period.ed" label="To"></v-text-field>
+      <v-text-field v-model="new_period.comment" label="Comment"></v-text-field>
       <v-text-field v-model="new_period.url" label="Url"></v-text-field>
+      <v-text-field v-model="new_period.img" label="Image"></v-text-field>
 
       <v-checkbox
         v-model="new_period.vertical"
         label="Chinese character"
       ></v-checkbox>
 
-      <v-checkbox v-model="is_new_period" label="New Period"></v-checkbox>
+      <v-checkbox
+        v-model="is_new_period"
+        label="New Period"
+        @change="set_period_vals"
+      ></v-checkbox>
 
       <v-btn class="mt-3 mr-3" @click="update_period('del')"> Del </v-btn>
       <v-btn class="mt-3 mr-3" @click="update_period('update')"> Update </v-btn>

@@ -1,6 +1,6 @@
-import { convert_date } from "./utils"
+import { convert_date, date2string, showTooltip, hideTooltip } from "./utils"
 
-export const add_period = function (group, period, index, font) {
+export const add_period = function (group, period, index, font, dateformat) {
    let G = group.group()
    G.attr({
       st: period["st"],
@@ -14,11 +14,16 @@ export const add_period = function (group, period, index, font) {
    if (period["vertical"]) {
       text = text.split("").join("\n")
    }
-   // else {
-   //    text = text.split(" ").join("\n")
-   // }
+
    var color = period["color"]
    var url = period["url"]
+   var comment = period["comment"]
+   if (comment == undefined) comment = ""
+   var img = period["img"]
+   if (img == undefined) img = ""
+   var st = date2string(convert_date(period["st"]), dateformat)
+   var ed = date2string(convert_date(period["ed"]), dateformat)
+   comment = `<b>${period["name"]}:</b> <br> From ${st} to ${ed} <br> ${comment}`
 
    // draw axis
    G.line(0, 0, 0, 1)
@@ -41,6 +46,10 @@ export const add_period = function (group, period, index, font) {
 
    G.text(`(${yr})`)
       .font({ family: font.label_family, weight: "thin" })
+
+   G.attr({
+      comment: comment, img: img
+   })
 }
 
 export const adjust_period = function (group, config, last) {
@@ -92,6 +101,8 @@ export const adjust_period = function (group, config, last) {
             width: tick_length,
             height: duration
          })
+         .on('mouseover', showTooltip)
+         .on('mouseout', hideTooltip)
 
       // adjust the label
       c[4].children()[0].font({ size: font.size1 })

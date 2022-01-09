@@ -140,7 +140,7 @@ export default class {
          let index = value["index"]
          add_title(this.title_g, value["text"], index, this.computed.period_font)
          for (const p of value["periods"]) {
-            add_period(this.period_g, p, index, this.computed.period_font);
+            add_period(this.period_g, p, index, this.computed.period_font, this.config.dateformat);
          }
          if (this.mode == "detail") {
             for (const e of value["events"]) {

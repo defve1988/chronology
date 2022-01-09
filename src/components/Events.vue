@@ -13,8 +13,21 @@ const { data, curr_event, curr_time_line } = toRefs(app_data);
 var { new_event, is_new_event, event_color, canvas } = toRefs(ui_control);
 
 const set_event_vals = () => {
-  new_event.value = curr_event;
-  event_color.value = curr_event.value.color;
+  if (is_new_event.value) {
+    new_event.value = {
+      time: "",
+      name: "",
+      url: "",
+      comment: "",
+      img: "",
+    };
+    event_color.value = "#000000";
+  } else {
+    // new_period.value = JSON.parse(JSON.stringify(curr_period.value));
+    // period_color.value = JSON.parse(JSON.stringify(curr_period.value)).color;
+    new_event.value = curr_event.value;
+    event_color.value = curr_event.value.color;
+  }
 };
 
 let event_opt = computed(() => {
@@ -67,7 +80,11 @@ const changeColor = (color) => {
       <v-text-field v-model="new_event.url" label="Url"></v-text-field>
       <v-text-field v-model="new_event.img" label="Image"></v-text-field>
 
-      <v-checkbox v-model="is_new_event" label="New Event"></v-checkbox>
+      <v-checkbox
+        v-model="is_new_event"
+        label="New Event"
+        @change="set_event_vals"
+      ></v-checkbox>
 
       <v-btn class="mt-3 mr-3" @click="update_event('del')"> Del </v-btn>
       <v-btn class="mt-3 mr-3" @click="update_event('update')"> Update </v-btn>

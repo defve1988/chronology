@@ -7,7 +7,7 @@ const ui_control = store.state.ui_control;
 const { canvas } = toRefs(ui_control);
 const { H, W, padding, st, ed, interval, base_font, ticks, dateformat } =
   toRefs(store.state.ui_control.canvas);
-var show_detail = ref(false);
+var show_detail = ref(true);
 
 const app_data = store.state.app_data;
 const { time_line, simple_mode } = toRefs(app_data);

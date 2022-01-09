@@ -82,7 +82,7 @@ export default {
 };
 </script>
 
-<style lan="scss">
+<style lan="sass">
 #draw {
   overflow: auto;
   /* cursor: grab; */
@@ -94,6 +94,12 @@ export default {
   padding-bottom: 10px;
   border-radius: 5px;
   position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.4s ease-out;
+  transition-delay: 5ms;
+  filter: drop-shadow(4px 4px 1px #707070b9);
+  border: solid 1px #707070b9;
 }
 
 .v-input__details {
@@ -116,4 +122,9 @@ export default {
   text-anchor: middle;
   dominant-baseline: middle;
 } */
+.hover {
+  filter: drop-shadow(4px 4px 1px #707070b9);
+  transition-duration: 100ms;
+  transition-delay: 5ms;
+}
 </style>
