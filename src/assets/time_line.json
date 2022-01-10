@@ -1,20 +1,8 @@
 {
-   "canvas": {
-      "H": 7000,
-      "W": 7500,
-      "padding": 50,
-      "interval": 400,
-      "base_font": 24,
-      "st": "-4500",
-      "ed": "2500",
-      "ticks": 14,
-      "dateformat": "year with AD",
-      "duration": "year"
-   },
    "data": {
       "China_main": {
          "text": "China",
-         "index": 0,
+         "index": 1,
          "periods": [
             {
                "name": "新石器时代",
@@ -395,6 +383,14 @@
                "label": "280 AD - 晋灭吴"
             },
             {
+               "time": "-154",
+               "name": "七国之乱",
+               "comment": "",
+               "url": "",
+               "img": "",
+               "label": "154 BC - 七国之乱"
+            },
+            {
                "time": "304",
                "name": "八王之乱",
                "comment": "",
@@ -497,12 +493,276 @@
                "url": "",
                "img": "",
                "label": "1949 AD - 新中国成立"
+            },
+            {
+               "time": "612",
+               "name": "隋煬帝征高句麗",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "626",
+               "name": "宣武門之變",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "629",
+               "name": "李靖滅東突厥",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "755",
+               "name": "安史之亂",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "690",
+               "name": "武則天稱帝",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "750",
+               "name": "達羅斯之戰",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1004",
+               "name": "澶淵之盟",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1069",
+               "name": "王安石變法",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1275",
+               "name": "馬可波羅到中國",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1141",
+               "name": "紹興和議",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1208",
+               "name": "嘉定和議",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1214",
+               "name": "宋蒙聯盟",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1304",
+               "name": "蒙古内戰結束",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1344",
+               "name": "蒙古修遼金宋史",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "587",
+               "name": "隋文帝開科舉",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "220",
+               "name": "九品中正制",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "-134",
+               "name": "確立察舉制",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1407",
+               "name": "永樂大典問世",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1405",
+               "name": "鄭和下西洋",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1402",
+               "name": "朱棣篡位",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1449",
+               "name": "土木堡之變",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1628",
+               "name": "李自成起義",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1633",
+               "name": "明末大瘟疫",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1615",
+               "name": "努爾哈赤起兵",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1645",
+               "name": "剃髮易服",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1673",
+               "name": "三藩之亂",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1780",
+               "name": "四庫全書問世",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1811",
+               "name": "禁止基督教",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1839",
+               "name": "第一次鴉片戰爭",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1851",
+               "name": "太平天國",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1894",
+               "name": "甲午戰爭",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1901",
+               "name": "辛丑條約",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1937",
+               "name": "盧溝橋事變",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
             }
          ]
       },
       "China_sub": {
          "text": "",
-         "index": 1,
+         "index": 2,
          "periods": [
             {
                "st": "-722",
@@ -554,11 +814,27 @@
             },
             {
                "st": "1368",
-               "ed": "1635",
+               "ed": "1388",
                "name": "北元",
                "vertical": true,
                "color": "rgba(110, 255, 42, 1)",
                "url": "https://www.wikiwand.com/zh/%E5%8C%97%E5%85%83"
+            },
+            {
+               "name": "蒙元",
+               "st": "1234",
+               "ed": "1368",
+               "url": "",
+               "color": "rgba(27, 199, 177, 1)",
+               "vertical": true
+            },
+            {
+               "st": "1388",
+               "ed": "1635",
+               "name": "韃靼瓦剌",
+               "vertical": true,
+               "color": "rgba(255, 230, 35, 1)",
+               "url": ""
             }
          ],
          "events": [
@@ -657,12 +933,132 @@
                "url": "",
                "img": "",
                "label": "446 AD - 北魏太武帝灭佛"
+            },
+            {
+               "time": "916",
+               "name": "耶律阿保機稱帝",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "938",
+               "name": "石敬瑭割讓燕雲十六州",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1004",
+               "name": "澶淵之盟",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1114",
+               "name": "完顔阿骨打起兵",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1038",
+               "name": "李元昊建立西夏",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1271",
+               "name": "忽必烈建大元",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1141",
+               "name": "紹興和議",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1125",
+               "name": "天祚帝被俘，耶律大石建立西遼",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1206",
+               "name": "鐵木真稱成吉思汗",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1218",
+               "name": "蒙古滅西遼",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1227",
+               "name": "蒙古滅西夏",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1234",
+               "name": "蒙古滅金",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1271",
+               "name": "忽必烈建大元",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1368",
+               "name": "明軍攻陷大都",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1388",
+               "name": "北元内亂滅亡",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
             }
          ]
       },
       "Greece ": {
          "text": "Greece ",
-         "index": 2,
+         "index": 4,
          "periods": [
             {
                "st": "-1100",
@@ -735,6 +1131,38 @@
                "vertical": false,
                "color": "rgba(132, 132, 132, 1)",
                "url": ""
+            },
+            {
+               "st": "395",
+               "ed": "1056",
+               "name": "Byzantine Greece",
+               "vertical": false,
+               "color": "rgba(191, 61, 206, 1)",
+               "url": "https://www.wikiwand.com/en/Byzantine_Greece"
+            },
+            {
+               "st": "1458",
+               "ed": "1821",
+               "name": "Ottoman Greece",
+               "vertical": false,
+               "color": "rgba(27, 199, 177, 1)",
+               "url": "https://www.wikiwand.com/en/Byzantine_Greece"
+            },
+            {
+               "st": "1056",
+               "ed": "1458",
+               "name": "Normans and Franks",
+               "vertical": false,
+               "color": "rgba(255, 178, 67, 1)",
+               "url": ""
+            },
+            {
+               "st": "1821",
+               "ed": "2030",
+               "name": "Hellenic Repubic",
+               "vertical": false,
+               "color": "rgba(0, 190, 255, 1)",
+               "url": ""
             }
          ],
          "events": [
@@ -801,12 +1229,52 @@
                "url": "https://www.wikiwand.com/en/Minoan_civilization",
                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Palazzo_Minosse7.jpg/600px-Palazzo_Minosse7.jpg",
                "label": "3000 BC - Minoan civilization"
+            },
+            {
+               "time": "1821",
+               "name": "Greek War of Independence",
+               "comment": "",
+               "color": "rgba(0, 0, 0, 1)",
+               "url": "https://www.wikiwand.com/en/Greek_War_of_Independence",
+               "img": ""
+            },
+            {
+               "time": "1946 ",
+               "name": "Civil War",
+               "comment": "between the Hellenic Army of the Greek government (supported by UK and US) and the Democratic Army of Greece (DSE) – the military branch of the Communist Party of Greece (KKE)",
+               "color": "rgba(0, 0, 0, 1)",
+               "url": "https://www.wikiwand.com/en/Greek_Civil_War",
+               "img": ""
+            },
+            {
+               "time": "1974",
+               "name": "End military junta",
+               "comment": "",
+               "color": "rgba(255, 25, 0, 1)",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1458",
+               "name": "Ottomans captured Athens",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1952",
+               "name": "Join NATO",
+               "comment": "",
+               "color": "rgba(0, 0, 0, 1)",
+               "url": "",
+               "img": ""
             }
          ]
       },
       "Rome/Italy": {
          "text": "Rome/Italy",
-         "index": 3,
+         "index": 5,
          "periods": [
             {
                "st": "-753",
@@ -826,11 +1294,107 @@
             },
             {
                "st": "-27",
-               "ed": "395",
+               "ed": "286",
                "name": "Roman Empire",
                "vertical": false,
                "color": "rgba(255, 137, 207, 1)",
                "url": ""
+            },
+            {
+               "name": "Villanovan-Etruria",
+               "st": "-900",
+               "ed": "-753",
+               "url": "https://www.wikiwand.com/en/Villanovan_culture",
+               "color": "rgba(46, 129, 255, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Proto-Villanovan",
+               "st": "-1200",
+               "ed": "-900",
+               "url": "https://www.wikiwand.com/en/Proto-Villanovan_culture",
+               "color": "rgba(255, 178, 67, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Prehistoric Italy",
+               "st": "-4500",
+               "ed": "-1200",
+               "url": "https://www.wikiwand.com/en/Prehistoric_Italy",
+               "color": "rgba(135, 135, 135, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Western Roman Empire",
+               "st": "286",
+               "ed": "476",
+               "url": ".setAttribute('transform', 'rotate(90)')",
+               "color": "rgba(191, 61, 206, 1)",
+               "vertical": false
+            },
+            {
+               "st": "568",
+               "ed": "774",
+               "name": "Kingdom of the Lombards",
+               "vertical": false,
+               "color": "rgba(244, 115, 101, 1)",
+               "url": ""
+            },
+            {
+               "st": "476",
+               "ed": "565",
+               "name": " Barbaric and Ostrogothic Kingdom",
+               "vertical": false,
+               "color": "rgba(27, 199, 177, 1)",
+               "url": "wikiwand.com/en/History_of_the_Kingdom_of_Italy_(1861–1946)"
+            },
+            {
+               "st": "774",
+               "ed": "1300",
+               "name": "Kingdom of Italy (Middle Age)",
+               "vertical": false,
+               "color": "rgba(93, 97, 255, 1)",
+               "url": "https://www.wikiwand.com/en/Kingdom_of_Italy_(Holy_Roman_Empire)#/Constituent_of_the_Carolingian_Empire"
+            },
+            {
+               "st": "1300",
+               "ed": "1600",
+               "name": "Italian Renaissance",
+               "vertical": false,
+               "color": "rgba(110, 255, 42, 1)",
+               "url": "https://www.wikiwand.com/en/Italian_Renaissance"
+            },
+            {
+               "st": "1600",
+               "ed": "1801",
+               "name": "Early Modern",
+               "vertical": false,
+               "color": "rgba(46, 129, 255, 1)",
+               "url": ""
+            },
+            {
+               "st": "1801",
+               "ed": "1871",
+               "name": "Unification",
+               "vertical": false,
+               "color": "rgba(0, 190, 255, 1)",
+               "url": "https://www.wikiwand.com/en/Unification_of_Italy"
+            },
+            {
+               "st": "1871",
+               "ed": "1946",
+               "name": "Monarchy",
+               "vertical": false,
+               "color": "rgba(255, 25, 0, 1)",
+               "url": "https://www.wikiwand.com/en/History_of_the_Kingdom_of_Italy_(1861%E2%80%931946)"
+            },
+            {
+               "st": "1946",
+               "ed": "2030",
+               "name": "Republic ",
+               "vertical": false,
+               "color": "rgba(27, 199, 177, 1)",
+               "url": "https://www.wikiwand.com/en/Italy"
             }
          ],
          "events": [
@@ -841,12 +1405,44 @@
                "url": "",
                "img": "",
                "label": "753 BC - Rome was founded."
+            },
+            {
+               "time": "774",
+               "name": "Under the Frankish rule",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "885",
+               "name": "As part of the Carolingian Empire",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "961",
+               "name": "As part of the Holy Roman Empire",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "1070",
+               "name": "Byzantine lost its last outpost in Italy",
+               "comment": "",
+               "color": "rgba(0, 0, 0, 1)",
+               "url": "",
+               "img": ""
             }
          ]
       },
       "Japan": {
          "text": "Japan",
-         "index": 4,
+         "index": 3,
          "periods": [
             {
                "st": "-4500",
@@ -1118,14 +1714,14 @@
       },
       "America": {
          "text": "America",
-         "index": 5,
+         "index": 6,
          "periods": [
             {
                "st": "-4500",
                "ed": "1492",
                "name": "Pre-Columbian era",
                "vertical": false,
-               "color": "rgba(255, 178, 67, 1)",
+               "color": "rgba(137, 137, 137, 1)",
                "url": ""
             },
             {
@@ -1203,6 +1799,257 @@
                "label": "1945 AD - Atomic bombings"
             }
          ]
+      },
+      "Human History": {
+         "text": "Human History",
+         "index": 0,
+         "periods": [
+            {
+               "name": "Bronze Age",
+               "st": "-3300",
+               "ed": "-1200",
+               "url": "https://www.wikiwand.com/en/Bronze_Age",
+               "color": "rgba(255, 178, 67, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Iron Age",
+               "st": "-1200",
+               "ed": "-550",
+               "url": "https://www.wikiwand.com/en/Iron_Age",
+               "color": "rgba(46, 129, 255, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Neolithic",
+               "st": "-4500",
+               "ed": "-3300",
+               "url": "https://www.wikiwand.com/en/Neolithic",
+               "color": "rgba(137, 137, 137, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Axial Age",
+               "st": "-550",
+               "ed": "-300",
+               "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4802742/",
+               "color": "rgba(27, 199, 177, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Classical Ancient",
+               "st": "-300",
+               "ed": "476",
+               "url": "https://www.wikiwand.com/en/Classical_antiquity",
+               "color": "rgba(0, 190, 255, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Middle Ages",
+               "st": "476",
+               "ed": "1453",
+               "url": "https://www.wikiwand.com/en/Middle_Ages",
+               "color": "rgba(191, 61, 206, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Early Modern",
+               "st": "1453",
+               "ed": "1800",
+               "url": "https://www.wikiwand.com/en/Early_modern_period",
+               "color": "rgba(93, 97, 255, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Late Modern",
+               "st": "1800",
+               "ed": "1927",
+               "url": "https://www.wikiwand.com/en/Late_modern_period",
+               "color": "rgba(244, 115, 101, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Contemporary",
+               "st": "1927",
+               "ed": "2025",
+               "url": "https://www.wikiwand.com/en/Contemporary_history",
+               "color": "rgba(255, 137, 207, 1)",
+               "vertical": false
+            }
+         ],
+         "events": []
+      },
+      "Egypt": {
+         "text": "Egypt",
+         "index": 7,
+         "periods": [
+            {
+               "name": "Early Dynastic (1st and 2nd)",
+               "st": "-3100",
+               "ed": "-2686",
+               "url": "https://www.wikiwand.com/en/Early_Dynastic_Period_(Egypt)",
+               "color": "rgba(255, 178, 67, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Prehistoric Egypt",
+               "st": "-4500",
+               "ed": "-3100",
+               "url": "https://www.wikiwand.com/en/Prehistoric_Egypt",
+               "color": "rgba(132, 132, 132, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Old Kingdom (3rd-6th)",
+               "st": "-2686",
+               "ed": "-2181",
+               "url": "https://www.wikiwand.com/en/Old_Kingdom_of_Egypt",
+               "color": "rgba(27, 199, 177, 1)",
+               "vertical": false
+            },
+            {
+               "name": "1st Intermediate Period",
+               "st": "-2181",
+               "ed": "-2055",
+               "url": "https://www.wikiwand.com/en/Old_Kingdom_of_Egypt",
+               "color": "rgba(244, 115, 101, 1)",
+               "vertical": false
+            },
+            {
+               "name": "2nd Intermediate Period",
+               "st": "-1650",
+               "ed": "-1550",
+               "url": "https://www.wikiwand.com/en/Second_Intermediate_Period_of_Egypt",
+               "color": "rgba(244, 115, 101, 1)",
+               "vertical": false
+            },
+            {
+               "name": "3rd Intermediate Period",
+               "st": "-1069",
+               "ed": "-664",
+               "url": "https://www.wikiwand.com/en/Third_Intermediate_Period_of_Egypt",
+               "color": "rgba(244, 115, 101, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Late Period (26th-31th)",
+               "st": "-664",
+               "ed": "-332",
+               "url": "",
+               "color": "rgba(0, 190, 255, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Middle Kingdom (11th-14th)",
+               "st": "-2055",
+               "ed": "-1650",
+               "url": "",
+               "color": "rgba(255, 230, 35, 1)",
+               "vertical": false
+            },
+            {
+               "name": "New Kingdom (18th-20th)",
+               "st": "-1550",
+               "ed": "-1069",
+               "url": "https://www.wikiwand.com/en/New_Kingdom_of_Egypt",
+               "color": "rgba(27, 199, 177, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Ptolemaic Period (32th-33th)",
+               "st": "-332",
+               "ed": "-30",
+               "url": "https://www.wikiwand.com/en/Ptolemaic_Kingdom",
+               "color": "rgba(27, 199, 177, 1)",
+               "vertical": false
+            },
+            {
+               "name": "Roman and Byzantine Egypt",
+               "st": "-30",
+               "ed": "641",
+               "url": "https://www.wikiwand.com/en/Ptolemaic_Kingdom",
+               "color": "rgba(255, 137, 207, 1)",
+               "vertical": false
+            }
+         ],
+         "events": [
+            {
+               "time": "-3100",
+               "name": "unification of Upper and Lower Egypt",
+               "comment": "",
+               "color": "rgba(0, 0, 0, 1)",
+               "url": "com/en/Greek_junta",
+               "img": ""
+            },
+            {
+               "time": "-2200",
+               "name": "4.2-kiloyear event",
+               "comment": "",
+               "color": "rgba(255, 25, 0, 1)",
+               "url": "https://www.wikiwand.com/en/4.2-kiloyear_event",
+               "img": ""
+            },
+            {
+               "time": "-2055",
+               "name": "Mentuhotep II reunify Egypt",
+               "comment": "",
+               "color": "rgba(0, 0, 0, 1)",
+               "url": "https://www.wikiwand.com/en/Mentuhotep_II",
+               "img": ""
+            },
+            {
+               "time": "-1674",
+               "name": "Hyksos invasion",
+               "comment": "",
+               "color": "rgba(0, 0, 0, 1)",
+               "url": "https://www.wikiwand.com/en/Hyksos",
+               "img": ""
+            },
+            {
+               "time": "-525",
+               "name": "Persians invasion",
+               "comment": "",
+               "color": "rgba(0, 0, 0, 1)",
+               "url": "https://www.wikiwand.com/en/Hyksos",
+               "img": ""
+            },
+            {
+               "time": "-332",
+               "name": "Alexander the Great conquered Persian-controlled Egypt",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            },
+            {
+               "time": "641",
+               "name": "Islamic conquests ",
+               "comment": "",
+               "color": "#000000",
+               "url": "https://www.wikiwand.com/en/Early_Muslim_conquests",
+               "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Map_of_expansion_of_Caliphate.svg/700px-Map_of_expansion_of_Caliphate.svg.png"
+            },
+            {
+               "time": "-30",
+               "name": "Octavian defeats Mark Antony",
+               "comment": "",
+               "color": "#000000",
+               "url": "",
+               "img": ""
+            }
+         ]
       }
+   },
+   "canvas": {
+      "H": 7000,
+      "W": 7500,
+      "padding": 50,
+      "interval": 400,
+      "base_font": 24,
+      "st": "-4500",
+      "ed": "2500",
+      "ticks": 14,
+      "dateformat": "year with AD",
+      "duration": "year"
    }
 }
