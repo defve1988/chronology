@@ -13,7 +13,8 @@ const state = {
    //    "ed": "2500",
    //    "ticks": 14,
    //    // or yyyy-mm or yyyy-mm-dd
-   //    "dateformat": "year with AD"
+   //    "dateformat": "year with AD",
+   //    "duration":"year"
    // },
    period_color: "#000000",
    event_color: "#000000",

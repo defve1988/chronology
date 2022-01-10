@@ -47,7 +47,7 @@ export default class {
    // }
 
    create_canvas(canvas, time_line_data) {
-      const { H, W, padding, interval, base_font, st, ed, ticks, dateformat } = canvas
+      const { H, W, padding, interval, base_font, st, ed, ticks, dateformat, duration } = canvas
 
       this.config = {
          H: parseInt(H),
@@ -58,7 +58,8 @@ export default class {
          st: convert_date(st),
          ed: convert_date(ed),
          ticks: parseInt(ticks),
-         dateformat: dateformat
+         dateformat: dateformat,
+         duration: duration
       }
 
       this.x_scale = 1
@@ -140,7 +141,7 @@ export default class {
          let index = value["index"]
          add_title(this.title_g, value["text"], index, this.computed.period_font)
          for (const p of value["periods"]) {
-            add_period(this.period_g, p, index, this.computed.period_font, this.config.dateformat);
+            add_period(this.period_g, p, index, this.computed.period_font, this.config.dateformat, this.config.duration);
          }
          if (this.mode == "detail") {
             for (const e of value["events"]) {

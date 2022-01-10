@@ -72,6 +72,9 @@ const mutations = {
          (x) => x.name == state.curr_event.name
       );
       state.data[time_line]["events"].splice(index, 1);
+   },
+   create_new_data(state) {
+      state.data = {}
    }
 };
 

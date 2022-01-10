@@ -3,12 +3,13 @@
       "H": 7000,
       "W": 7500,
       "padding": 50,
-      "interval":400,
-      "base_font":24,
+      "interval": 400,
+      "base_font": 24,
       "st": "-4500",
       "ed": "2500",
-      "ticks":14,
-      "dateformat":"year with AD"
+      "ticks": 14,
+      "dateformat": "year with AD",
+      "duration": "year"
    },
    "data": {
       "China_main": {

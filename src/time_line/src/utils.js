@@ -1,24 +1,30 @@
 export const convert_date = function (date_str) {
    var date = new Date()
-   date_str = date_str.split("-")
-   if (date_str[0] == "") {
-      date_str.splice(0, 1)
-      date_str[0] = -parseInt(date_str[0])
-   }
-   date.setFullYear(date_str[0]);
-
-   if (date_str.length > 1) {
-      date.setMonth(date_str[1] - 1);
+   if (date_str.includes(":")) {
+      // full date string 
+      date = new Date(date_str)
    }
    else {
-      date.setMonth(0);
-   }
+      date_str = date_str.split("-")
+      if (date_str[0] == "") {
+         date_str.splice(0, 1)
+         date_str[0] = -parseInt(date_str[0])
+      }
+      date.setFullYear(date_str[0]);
 
-   if (date_str.length > 2) {
-      date.setDate(date_str[2] - 1);
-   }
-   else {
-      date.setDate(1);
+      if (date_str.length > 1) {
+         date.setMonth(date_str[1] - 1);
+      }
+      else {
+         date.setMonth(0);
+      }
+
+      if (date_str.length > 2) {
+         date.setDate(date_str[2] - 1);
+      }
+      else {
+         date.setDate(1);
+      }
    }
 
    return date.getTime()
@@ -28,6 +34,8 @@ export const date2string = function (date_num, format) {
    var res
    var date = new Date(date_num)
    var year = date.getFullYear()
+   
+   // todo: add more type
    if (format == "year with AD") {
       res = `${Math.abs(year)} ${year >= 0 ? "AD" : "BC"}`
    }
@@ -36,6 +44,12 @@ export const date2string = function (date_num, format) {
    }
    else if (format == "yyyy-mm-dd") {
       res = `${year}-${date.getMonth() + 1}-${date.getDate() + 1}`
+   }
+   else if (format == "hh:mm") {
+      ;
+      let hour = date.getHours()
+      let minute = date.getMinutes()
+      res = `${hour > 9 ? "" + hour : "0" + hour}:${minute > 9 ? "" + minute : "0" + minute}`
    }
    return res
 }

@@ -1,6 +1,6 @@
 import { convert_date, date2string, showTooltip, hideTooltip } from "./utils"
 
-export const add_period = function (group, period, index, font, dateformat) {
+export const add_period = function (group, period, index, font, dateformat, duration) {
    let G = group.group()
    G.attr({
       st: period["st"],
@@ -9,7 +9,17 @@ export const add_period = function (group, period, index, font, dateformat) {
       v: period["vertical"]
    })
 
-   var yr = Math.floor((convert_date(period["ed"]) - convert_date(period["st"])) / 3600000 / 24 / 365)
+   // todo: add more type
+   var duration_text = ""
+   if (duration == "year") {
+      duration_text = Math.floor((convert_date(period["ed"]) - convert_date(period["st"])) / 3600000 / 24 / 365)
+   }
+   else if (duration == "hour") {
+      duration_text = Math.floor((convert_date(period["ed"]) - convert_date(period["st"])) / 3600000 ) + " hr"
+   }
+
+
+
    var text = period["name"]
    if (period["vertical"]) {
       text = text.split("").join("\n")
@@ -44,7 +54,7 @@ export const add_period = function (group, period, index, font, dateformat) {
       .text(text)
       .font({ family: font.label_family, weight: "bold" })
 
-   G.text(`(${yr})`)
+   G.text(`(${duration_text})`)
       .font({ family: font.label_family, weight: "thin" })
 
    G.attr({
